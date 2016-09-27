@@ -34,6 +34,8 @@ public class _01_getting_user_input {
 		
 		System.out.println("hello " + name + " you were born in " + birthCity + " and you are " + age + " years old");
 		
+		
+		
 	}
 
 }
