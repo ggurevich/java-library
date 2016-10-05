@@ -21,8 +21,12 @@ public class _02_operators {
 		//1
 		ten=ten + 1;
 		
+		System.out.println(ten);
+		
 		//2
 		ten += 1;
+		
+		System.out.println(ten);
 		
 		
 		double stockPrice;
@@ -35,9 +39,30 @@ public class _02_operators {
 		System.out.println(ten);
 		
 		
-		//man goes shopping with starting balance
+		//practice
+		int one = 5 + 3;
+		int two = 5 - 3;
+		int three = 5 * 3;
+		int four = 15 / 3;
+		
+		System.out.println(one + " " + two + " " + three + " " + four);
+		
+		one = one + 1;
+		
+		System.out.println(one);
+		
+		one += 1;
+		System.out.println(one);
+		//should be 11. still says 10
+		int hello = one++;
+		System.out.println(hello);
+		
 		
 	}
+	
+	
+	
+	
 
 }
 

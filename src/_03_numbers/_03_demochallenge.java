@@ -16,10 +16,10 @@ public class _03_demochallenge {
 		// total bill
 		
 		double totalBill = (bloomOnion + chiSan + choCake);
-		System.out.println(totalBill);
+		System.out.println("total bill" + totalBill);
 		
 		// new bank balance
 		double newBankBal = (bankBal - totalBill);
-		System.out.println(newBankBal);
+		System.out.println("new balance" + newBankBal);
 	}
 }

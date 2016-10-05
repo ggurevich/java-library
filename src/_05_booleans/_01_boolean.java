@@ -12,12 +12,12 @@ public class _01_boolean {
 		System.out.println(1>3);
 		
 		
-		//boolean taco = true;
-		//boolean hotdog = true;
-		String lunch = "taco";
-		if (lunch = "taco"){
+		boolean taco = true;
+		boolean hotdog = true;
+		boolean lunch = taco;
+		if (lunch = taco){
 			System.out.println("Tacos!");
-		} else if(lunch = "hotdog") {
+		} else if(lunch = hotdog) {
 			System.out.println("hotdog!");
 		} else {
 			System.out.println("unavailable");		

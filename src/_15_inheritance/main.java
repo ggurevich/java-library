@@ -1,5 +1,7 @@
 package _15_inheritance;
 
+import _17_Encapsulation.Patriots;
+
 public class main {
 
 	public static void main(String[] args) {
@@ -46,6 +48,9 @@ public class main {
 		jerry.speak();
 		jerry.printname();
 		jerry.hunter();
+		
+		Patriots brady = new Patriots();
+		brady.name = "tom brady";
 	}
 
 }
