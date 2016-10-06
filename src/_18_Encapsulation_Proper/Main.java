@@ -1,15 +1,8 @@
-package _17_Encapsulation;
+package _18_Encapsulation_Proper;
 
-import _18_Encapsulation_Proper.Player;
-
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
-		
-		ColtsPlayers aLuck = new ColtsPlayers();
-		aLuck.name = "andrew luck";
-		aLuck.age = 27;
-		
 		Player james = new Player("james", "buffed", 42, 50);
 		
 		
@@ -21,6 +14,8 @@ public class main {
 		
 		
 		Player gabe = new Player("gabriel", "gaining xp", 10, 50);
-			}
+		
+
+	}
 
 }

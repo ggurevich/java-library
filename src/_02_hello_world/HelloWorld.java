@@ -1,6 +1,7 @@
 package _02_hello_world;
 
 import _17_Encapsulation.ColtsPlayers;
+import _18_Encapsulation_Proper.Player;
 
 public class HelloWorld
 {
@@ -12,8 +13,6 @@ public class HelloWorld
 		aCastonzo.setNumber(74);
 		System.out.println(aCastonzo.getNumber());
 	
+		
 	}
-	
-	
-
 }

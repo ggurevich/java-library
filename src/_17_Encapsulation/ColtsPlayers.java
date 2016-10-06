@@ -1,5 +1,7 @@
 package _17_Encapsulation;
 
+import _18_Encapsulation_Proper.Player;
+
 public class ColtsPlayers {
 	
 	public String name;
@@ -15,5 +17,5 @@ public class ColtsPlayers {
 	public Integer getNumber() {
 		return this.number;
 	}
-
+	
 }
